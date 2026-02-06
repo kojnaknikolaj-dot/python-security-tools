@@ -1,3 +1,4 @@
+
 #Security System Initializer
 
 A lightweight Python utility designed for SOC (Security Operations Center) environments to initialize monitoring parameters and perform automated network segment validation.
@@ -22,7 +23,7 @@ Network Intelligence: Uses prefix-based logic (.startswith) to instantly identif
 
 Dynamic Risk Assessment: Applies mathematical formulas to determine threat blocking thresholds based on login attempts and risk factors.
 
-Clean Code Standards: Follows PEP 8 naming conventions and utilizes the python if __name__ == "__main__": entry point for modularity.
+Clean Code Standards: Follows PEP 8 naming conventions and utilizes the ```python if __name__ == "__main__":``` entry point for modularity.
 
 ##🛠 Technical Stack
 
@@ -34,7 +35,7 @@ Type Casting: Efficiently converting user input into int and float for calculati
 
 String Manipulation: Data cleaning using .strip(), .lower(), and pattern matching.
 
-Conditional Logic: Advanced use of python if/elif/else blocks and boolean flags.
+Conditional Logic: Advanced use of ```python if/elif/else``` blocks and boolean flags.
 
 Exception Handling: Managing ValueError and EOFError to ensure script stability in various environments.
 
@@ -46,8 +47,10 @@ Clone this repository or download the security_setup_tool.py file.
 
 Run the script via your terminal:
 
-python python security_setup_tool.py
+```python python security_setup_tool.py```
+
 
 Follow the on-screen prompts to enter analyst details and network data.
 
 Created as part of a SOC Automation & Security Engineering training path.
+
